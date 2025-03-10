@@ -1,0 +1,177 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "BROOKLYN hoodie",
+      "price": 109.95,
+      "description": "dark green, casual hoodie",
+      "category": "hoodies",
+      "image": "https://img.ltwebstatic.com/images3_pi/2023/05/18/1684395226b899a4697f02777aa9c88c1354ad4bcc.webp",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": "2",
+      "title": "Men's bracelet",
+      "price": 22.3,
+      "description": "Slim-fitting style, sport style, silver, minimalistic.",
+      "category": "jewelery",
+      "image": "https://img.ltwebstatic.com/images3_spmp/2023/10/27/a5/16983938437fef9684888690d51ce6a2d3880bcb37.webp",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": "3",
+      "title": "Men's 'A' bracelet",
+      "price": 50,
+      "description": "Fashionable Simple Metallic Bold Alphabet Chain Bracelet For Men",
+      "category": "jewelery",
+      "image": "https://img.ltwebstatic.com/images3_spmp/2024/01/06/35/1704523215976e4dae026a00ebbe278a6a7a940dc3.webp",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": "4",
+      "title": "Simple t-shirt",
+      "price": 74.33,
+      "description": "Hypemode Men's Random Contrast Dye Gradient Letter Print Short Sleeve T-Shirt",
+      "category": "shirts",
+      "image": "https://img.ltwebstatic.com/images3_pi/2024/01/08/24/1704710970c9ed14be4f1e02bb43ccb01b144ff98e.webp",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": "5",
+      "title": "Fashionable Men's Glasses Decoration Square",
+      "price": 2234,
+      "description": "very nice",
+      "category": "jewelery",
+      "image": "https://img.ltwebstatic.com/images3_spmp/2023/09/03/86/1693748188503d54e72db15918b67f870fdc03cff4.webp",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "0b83",
+      "name": "Tester",
+      "email": "tester@tester.com",
+      "password": "627238f267785126ddb2cfd6b71aefb1ec2651077fb4d4bdfb7eb482d27c072e"
+    },
+    {
+      "id": "a69c",
+      "name": "Janek Kot",
+      "email": "lubieplacki@wp.pl",
+      "password": "8a7a3258fa61d95bc3dd0d9603738fdd4591e233a4d39f7fbd347dcad145b0ed"
+    },
+    {
+      "id": "1598",
+      "name": "Jan Kowalski",
+      "email": "jankowalski@onet.pl",
+      "password": "3b73772148cbb8198a50080306c1900f436ab4b2ab51af6d516d844742c17eac"
+    },
+    {
+      "id": "f42d",
+      "name": "Janek Kot",
+      "email": "lubieplacki@gmail.com",
+      "password": "bdd2297f93550f01452cbd838c276f0dd22f498b4661394f1528ab88d6e63e6f"
+    }
+  ],
+  "orders": [
+    {
+      "id": "c1cd",
+      "user_email": "tester@tester.com",
+      "items": [
+        {
+          "id": "3",
+          "title": "Men's 'A' bracelet",
+          "price": 50,
+          "description": "Fashionable Simple Metallic Bold Alphabet Chain Bracelet For Men",
+          "category": "jewelery",
+          "image": "https://img.ltwebstatic.com/images3_spmp/2024/01/06/35/1704523215976e4dae026a00ebbe278a6a7a940dc3.webp",
+          "rating": {
+            "rate": 4.7,
+            "count": 500
+          },
+          "quantity": 1
+        }
+      ],
+      "billing_address": {
+        "firstName": "test",
+        "lastName": "test",
+        "email": "tester@tester.com",
+        "address": "Testowa 41",
+        "address2": "12",
+        "country": "Polandia",
+        "state": "Opolskie",
+        "zip": "1234"
+      },
+      "payment_details": {
+        "cardName": "Tester testowy",
+        "cardNumber": "1111222233334444",
+        "cardExpiration": "12/29",
+        "cardCVV": "123"
+      },
+      "totalAmount": 65
+    },
+    {
+      "id": "c72e",
+      "user_email": "jankowalski@onet.pl",
+      "items": [
+        {
+          "id": "2",
+          "title": "Men's bracelet",
+          "price": 22.3,
+          "description": "Slim-fitting style, sport style, silver, minimalistic.",
+          "category": "jewelery",
+          "image": "https://img.ltwebstatic.com/images3_spmp/2023/10/27/a5/16983938437fef9684888690d51ce6a2d3880bcb37.webp",
+          "rating": {
+            "rate": 4.1,
+            "count": 259
+          },
+          "quantity": 9
+        },
+        {
+          "id": "5",
+          "title": "Fashionable Men's Glasses Decoration Square",
+          "price": 2234,
+          "description": "very nice",
+          "category": "jewelery",
+          "image": "https://img.ltwebstatic.com/images3_spmp/2023/09/03/86/1693748188503d54e72db15918b67f870fdc03cff4.webp",
+          "rating": {
+            "rate": 4.6,
+            "count": 400
+          },
+          "quantity": 110
+        }
+      ],
+      "billing_address": {
+        "firstName": "Marcin",
+        "lastName": "Marcinowski",
+        "email": "marcin456544@wp.pl",
+        "address": "Sezamkowa 420",
+        "address2": "14",
+        "country": "Polska",
+        "state": "2334",
+        "zip": "23233"
+      },
+      "payment_details": {
+        "cardName": "XDDD",
+        "cardNumber": "1234123412341234",
+        "cardExpiration": "06/24",
+        "cardCVV": "123"
+      },
+      "totalAmount": 245956
+    }
+  ]
+}
